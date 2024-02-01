@@ -1,0 +1,35 @@
+body {
+    background-color: black; 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.containershows {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px; 
+    background-color: black;
+    color: white; 
+    
+}
+  
+.title {
+    font-family: 'YourFont', sans-serif; 
+    font-size: 28px; 
+    font-weight: 700; 
+    margin-bottom: 20px; 
+}
+  
+.description {
+    font-family: 'YourFont', sans-serif; 
+    font-size: 18px; 
+    font-weight: 400; 
+    margin-bottom: 20px; 
+}
+  
+.card-container{
+    margin-top: 30px;
+}
