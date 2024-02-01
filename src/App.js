@@ -28,6 +28,8 @@ function App() {
         <Route exact path="/" element={<Home />} />
         <Route path="/details/:showId" element={<ShowsDetails />} />
         <Route path="/ticketbokking" element={<TicketBooking/>}/>
+        
+
       </Routes>
       <Footer />
     </Router>
