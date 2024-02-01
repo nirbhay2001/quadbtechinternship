@@ -3,6 +3,7 @@ import "./home.css";
 import Slider from "../component/Slider/Slider";
 import { Link } from "react-router-dom";
 
+
 const Home = () => { 
 
   const [shows, setShows] = useState([]);
